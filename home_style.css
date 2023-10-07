@@ -1,29 +1,11 @@
-body {
-    background-color: #dcdcdc;
-}
-
-h1, h2 {
-    border-style: hidden;
-    border-radius: 5px;
+h2 {
+    
 }
 
 h1 {
-    background-color: darkslategray;
-    width: initial;
-    padding: 50px;
-    margin: 0px;
-    align-content: center;
+    
 }
 
-a {
-    text-decoration: none;
-    display: block;
-    background-color: darkslategray;
-    color: beige;
+h3 {
 
-}
-
-h2 a:hover {
-    background-color: beige;
-    color: darkslategray;
 }
