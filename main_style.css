@@ -25,6 +25,7 @@ h3.link {
     margin: 0px;
     padding: 0px;
     font-family: "Lucida Handwriting", cursive;
+    z-index: 1;
 }
 
 ul {
@@ -38,7 +39,7 @@ ul {
     background-color: #282236;
     right: 0;
     top: 0;
-    z-index: -1;
+    z-index: 0;
 }
 
 

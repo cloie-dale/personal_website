@@ -1,11 +1,40 @@
-h2 {
-    
+div.main {
+    position: relative;
+    top: 200px;
+    left: 100px;
+    width: 75%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    z-index: -1;
+
+}
+
+p.bottom {
+    text-align: left;
+    font-family: "Courier New", monospace;
+    font-size: 2.5em;
+    color: #a7b0b0;
+    width: 75%;
+    padding: 0;
+    margin: 0;
 }
 
 h1 {
-    
+    text-align: left;
+    font-family: "Lucida Handwriting", cursive;
+    width: 75%;
+    font-size: 7em;
+    padding: 0;
+    margin: 0;
 }
 
-h3 {
-
+p.top {
+    text-align: left;
+    font-family: "Courier New", monospace;
+    font-size: 2em;
+    color: #a7b0b0;
+    width: 75%;
+    padding: 0;
+    margin: 0;
 }
