@@ -60,6 +60,7 @@ a.nav {
 
 li a.nav {
     text-align: right;
+    font-family: "Courier New", monospace;
     padding: 25px 50px;
     font-size: 1.1em;
 }
