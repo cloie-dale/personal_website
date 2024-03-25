@@ -5,13 +5,19 @@ h1, h2 {
     border-style: hidden;
 }
 
+div.main {
+    position: relative;
+    top: 7em;
+    left: 5em;
+    width: 75%;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+
 h1 {
-    /*background-color: darkslategray;*/
-    width: initial;
-    padding: 50px;
-    margin: 300px;
-    color: #a7b0b0;
     font-family: "Lucida Handwriting", cursive;
+    color: #a7b0b0;
 }
 
 h3.link {
@@ -75,3 +81,31 @@ a.nav:hover {
     background-color: #2f3157;
 }
 
+a.inline:link {
+    color: lightpink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a.inline:visited {
+    color: lightseagreen;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a.inline:hover {
+    color: deeppink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+p {
+    position:relative;
+    text-align: left;
+    font-family: "Courier New", monospace;
+    color: #a7b0b0;
+    padding: 0;
+    margin: 0;
+    font-size:1.25em;
+    z-index:99999;
+}

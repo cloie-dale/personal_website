@@ -9,14 +9,6 @@ div.main {
 
 }
 
-p {
-    text-align: left;
-    font-family: "Courier New", monospace;
-    color: #a7b0b0;
-    padding: 0;
-    margin: 0;
-}
-
 p.top {
     font-size: 2em;
     width: 75%;
