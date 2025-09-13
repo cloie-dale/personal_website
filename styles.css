@@ -896,19 +896,21 @@ header .container {
   position: relative;
   z-index: 1;
   left: 25%;
-  max-width: 750px;
+  max-width: 60%;
   overflow: hidden;
+  flex-wrap: wrap;
 }
 
 .contact-info {
-  flex: 1;
+  flex-wrap: wrap;
   display: flex;
   gap: 40px;
   margin-top: 40px; 
 }
 
 .contact-item {
-  display: flex;
+  flex-grow: 1;
+  
   align-items: flex-start;
   margin-bottom: 30px;
 }
@@ -927,17 +929,18 @@ header .container {
 }
 
 .social-links {
-  display: flex;
-  gap: 15px;
-  margin-top: 40px;
-  background: var(--primary-dark);
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  padding: 15px;
-  z-index: 5;
-  overflow: hidden;
-  box-shadow: 0 5px 20px var(--shadow);
+    display: flex;
+    gap: 15px;
+    margin-top: 40px;
+    background: var(--primary-dark);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: 15px;
+    z-index: 5;
+    overflow: hidden;
+    box-shadow: 0 5px 20px var(--shadow);
+    flex-wrap: wrap;
 }
 
 .social-link {
